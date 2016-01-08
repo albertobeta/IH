@@ -78,6 +78,6 @@ another_milkshake.add_ingredient(banana)
 my_cart.add_milkshakes(another_milkshake)
 
 # To checkout cart call my_cart.checkout
-puts "The total amount to pay for your #{my_cart.milkshakes_order.count} milkshakes is: 
-#{my_cart.checkout}$"
+puts "Number of milkshakes: #{my_cart.milkshakes_order.count}"
+puts "Total to pay: #{my_cart.checkout} Euros"
 
